@@ -8,6 +8,7 @@ using namespace std;
 // in stack memory destructor is called automatically when out of scope, the object created first will be deleted last.
 
 int main () {
+    // An object, Has state and behaviour
     student st1 = student("Vikas");
     cout<<st1.getName()<<endl;
 
